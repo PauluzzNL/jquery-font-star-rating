@@ -22,14 +22,14 @@
 
 #### Add in footer
 
-1. Basic
+* Basic
 ```javascript
 $('.star').fontstar({},function(value,self){
 	console.log("hello "+value);
 });
 ```
 
-2. Stop selection
+* Stop selection
 ```javascript
 $('.star').fontstar({
 	selectable: false
@@ -38,7 +38,7 @@ $('.star').fontstar({
 });
 ```
 
-3. Customizing icons, you can also use glyphicon, you just have to include css for glyphicon and pass
+* Customizing icons, you can also use glyphicon, you just have to include css for glyphicon and pass
 	the code below
 ```javascript
 $('.star').fontstar({
