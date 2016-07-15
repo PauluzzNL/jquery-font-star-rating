@@ -38,9 +38,8 @@ $('.star').fontstar({
 });
 ```
 
-3. Customizing icons :
-	you can also use glyphicon, you just have to include css for glyphicon and pass
-	the code below.
+3. Customizing icons, you can also use glyphicon, you just have to include css for glyphicon and pass
+	the code below
 ```javascript
 $('.star').fontstar({
 	icon: "fa fa-star-o", // when star is not selected font awesom icon code
