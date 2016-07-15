@@ -1,10 +1,11 @@
 # jQuery Font Star Rating
 
 #### include in header
+```html
 <script src="jquery.min.js"></script>
 <script src="jquery.fontstar.js"></script>
 <link href="font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
-
+```
 
 #### HTML
 ```html
