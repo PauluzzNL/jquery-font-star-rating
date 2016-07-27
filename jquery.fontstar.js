@@ -44,7 +44,11 @@
                         'float': 'left',
                         'padding': '0 2px'
                     });
-                    lit.css('cursor', 'pointer');
+                    if ($.fn.fontstar.defaults.selectable) {
+                        lit.css('cursor', 'pointer');
+                    }else{
+                        lit.css('cursor', 'default');
+                    }
                     lit.attr('data-value', $(this).val());
                     lit.attr('data-text', $(this).text());
                     lit.appendTo(ul);
