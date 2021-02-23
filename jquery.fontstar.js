@@ -2,16 +2,13 @@
 
     $.fn.fontstar = function (options, callBackFunction) {
 
-        callBackFunction = callBackFunction || function () {}
+        $.fn.fontstar.callBackFunction = callBackFunction || function () {}
 
         $.fn.fontstar.defaults = $.extend({}, $.fn.fontstar.defaults, options);
 
         $.each(this, function (i) {
             $.fn.fontstar.star.init(this);
         });
-    };
-    $.fn.fontstar.callBackFunction = function () {
-
     };
     $.fn.fontstar.defaults = {
         icon: "fa fa-star-o",
